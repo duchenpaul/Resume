@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: Resume
-    container_name: Resume
+    image: resume
+    container_name: resume
     ports:
       - 8080:8080
     restart: unless-stopped
